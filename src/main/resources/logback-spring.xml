@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- 로그의 상태를 출력하는 레벨을 설정합니다. -->
+    <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener"/>
+
+    <!-- 파일 로그 설정 -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>logs/spring-boot-app.log</file> <!-- 로그 파일 경로 -->
+        <append>true</append>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%t] %logger{36} - %msg%n</pattern> <!-- 로그 패턴 -->
+        </encoder>
+    </appender>
+
+    <!-- 콘솔 로그 설정 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%t] %logger{36} - %msg%n</pattern> <!-- 콘솔 로그 패턴 -->
+        </encoder>
+    </appender>
+
+    <!-- 루트 로거 설정 (전체 애플리케이션 로그) -->
+    <root level="info">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+    <!-- 특정 패키지에 대한 로그 레벨 설정 -->
+    <logger name="org.springframework.web" level="info">
+        <appender-ref ref="CONSOLE"/>
+    </logger>
+
+    <logger name="dev.binz.reference" level="trace">
+        <appender-ref ref="FILE"/>
+    </logger>
+
+</configuration>
