@@ -2757,3 +2757,771 @@ Ml]8ZøØ¿?¼Âº¾¿«.OO*óA,ô)¥ÖÒôäQVq¤.²Ç%µLØJO�
           Cookies = []
 
 
+2026-03-10 23:00:29 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-10 23:00:29 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 21716 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-10 23:00:29 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 21716 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-10 23:00:29 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-10 23:00:29 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-10 23:00:29 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 23:00:29 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 23:00:29 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-10 23:00:29 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-10 23:00:31 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-10 23:00:31 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-10 23:00:31 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 23:00:31 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 23:00:31 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-10 23:00:31 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 23:00:31 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2389 ms
+2026-03-10 23:00:31 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:00:31 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:00:31 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:00:31 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:00:32 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 23:00:32 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:d2de7ee5-79f9-4b88-a2a4-c5e4bc2fc89e user=SA
+2026-03-10 23:00:32 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 23:00:32 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:d2de7ee5-79f9-4b88-a2a4-c5e4bc2fc89e'
+2026-03-10 23:00:33 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-10 23:00:33 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 23:00:33 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-10 23:00:33 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 4.939 seconds (process running for 6.397)
+2026-03-10 23:00:33 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 4.939 seconds (process running for 6.397)
+2026-03-10 23:02:27 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 23:02:27 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-10 23:02:27 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-03-10 23:02:27 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:02:27 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:02:28 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:02:28 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:02:28 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:02:28 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:02:28 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:02:28 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:07:02 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-10 23:07:02 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-10 23:07:02 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-10 23:07:02 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 23:07:02 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 23:07:02 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:07:02 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:07:02 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:07:02 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:07:07 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-10 23:07:08 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 4340 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-10 23:07:08 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 4340 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-10 23:07:08 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-10 23:07:08 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-10 23:07:08 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 23:07:08 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 23:07:08 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-10 23:07:08 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-10 23:07:10 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-10 23:07:11 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-10 23:07:11 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 23:07:11 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 23:07:11 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-10 23:07:11 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 23:07:11 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3590 ms
+2026-03-10 23:07:11 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:07:11 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:07:11 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:07:11 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:07:12 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 23:07:13 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:6077ee52-d2af-4595-bb34-93b14d9d2410 user=SA
+2026-03-10 23:07:13 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 23:07:13 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:6077ee52-d2af-4595-bb34-93b14d9d2410'
+2026-03-10 23:07:13 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-10 23:07:13 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 23:07:13 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-10 23:07:13 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 6.821 seconds (process running for 8.116)
+2026-03-10 23:07:13 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 6.821 seconds (process running for 8.116)
+2026-03-10 23:07:15 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 23:07:15 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-10 23:07:15 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-03-10 23:07:15 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:07:15 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:07:16 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:07:16 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:10:59 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-10 23:10:59 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-10 23:10:59 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-10 23:10:59 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 23:10:59 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 23:10:59 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:10:59 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:10:59 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:10:59 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:11:09 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-10 23:11:10 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 22400 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-10 23:11:10 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 22400 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-10 23:11:10 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-10 23:11:10 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-10 23:11:10 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 23:11:10 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 23:11:10 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-10 23:11:10 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-10 23:11:11 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-10 23:11:12 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-10 23:11:12 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 23:11:12 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 23:11:12 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-10 23:11:12 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 23:11:12 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2299 ms
+2026-03-10 23:11:12 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:11:12 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:11:12 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:11:12 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:11:13 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 23:11:13 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:b1065c71-7fc7-45c6-8d1c-a97f2a4b2bae user=SA
+2026-03-10 23:11:13 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 23:11:13 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b1065c71-7fc7-45c6-8d1c-a97f2a4b2bae'
+2026-03-10 23:11:13 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-10 23:11:13 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 23:11:13 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-10 23:11:13 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 4.706 seconds (process running for 5.87)
+2026-03-10 23:11:13 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 4.706 seconds (process running for 5.87)
+2026-03-10 23:11:16 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 23:11:16 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-10 23:11:16 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-03-10 23:11:16 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:11:16 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:11:17 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:11:17 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:13:33 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-10 23:13:33 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-10 23:13:33 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-10 23:13:33 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 23:13:33 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 23:13:33 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:13:33 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:13:33 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:13:33 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:13:38 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-10 23:13:38 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 7136 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-10 23:13:38 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 7136 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-10 23:13:38 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-10 23:13:38 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-10 23:13:38 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 23:13:38 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 23:13:38 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-10 23:13:38 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-10 23:13:39 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-10 23:13:40 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-10 23:13:40 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 23:13:40 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 23:13:40 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-10 23:13:40 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 23:13:40 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2253 ms
+2026-03-10 23:13:40 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:13:40 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:13:40 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:13:40 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:13:41 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 23:13:41 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:7d9d973f-23bf-41a5-942a-5f8be6f571e5 user=SA
+2026-03-10 23:13:41 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 23:13:41 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:7d9d973f-23bf-41a5-942a-5f8be6f571e5'
+2026-03-10 23:13:41 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-10 23:13:41 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 23:13:42 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-10 23:13:42 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 4.81 seconds (process running for 6.03)
+2026-03-10 23:13:42 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 4.81 seconds (process running for 6.03)
+2026-03-10 23:13:44 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 23:13:44 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-10 23:13:44 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-03-10 23:13:44 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:13:44 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:13:44 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:13:44 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:13:50 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:13:50 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:13:50 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:13:50 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:19:25 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-10 23:19:25 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-10 23:19:25 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-10 23:19:25 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 23:19:25 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 23:19:25 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:19:25 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:19:25 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:19:25 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:19:35 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-10 23:19:35 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 6708 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-10 23:19:35 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 6708 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-10 23:19:35 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-10 23:19:35 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-10 23:19:35 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 23:19:35 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 23:19:35 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-10 23:19:35 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-10 23:19:37 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-10 23:19:38 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-10 23:19:38 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 23:19:38 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 23:19:38 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-10 23:19:38 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 23:19:38 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3089 ms
+2026-03-10 23:19:38 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:19:38 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:19:38 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:19:38 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:19:39 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 23:19:40 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:5ef19704-818d-480c-b44d-731c9c6e2b8f user=SA
+2026-03-10 23:19:40 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 23:19:40 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5ef19704-818d-480c-b44d-731c9c6e2b8f'
+2026-03-10 23:19:40 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-10 23:19:40 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 23:19:40 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-10 23:19:40 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 6.623 seconds (process running for 8.181)
+2026-03-10 23:19:40 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 6.623 seconds (process running for 8.181)
+2026-03-10 23:19:58 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 23:19:58 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-10 23:19:58 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-03-10 23:19:58 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:19:58 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:19:59 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:19:59 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:20:03 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:20:03 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:20:04 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:20:04 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:20:07 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:20:07 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:20:07 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:20:07 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:20:09 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:20:09 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:20:09 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:20:09 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:20:10 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:20:10 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:20:10 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:20:10 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:20:11 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:20:11 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:20:11 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:20:11 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:37:14 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-10 23:37:14 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-10 23:37:14 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-10 23:37:14 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 23:37:14 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 23:37:14 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:37:14 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:37:14 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:37:14 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:37:23 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-10 23:37:23 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 5472 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-10 23:37:23 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 5472 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-10 23:37:23 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-10 23:37:23 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-10 23:37:23 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 23:37:23 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-10 23:37:23 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-10 23:37:23 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-10 23:37:25 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-10 23:37:27 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-10 23:37:27 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-10 23:37:27 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-10 23:37:27 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-10 23:37:27 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-10 23:37:27 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3496 ms
+2026-03-10 23:37:27 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:37:27 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:37:27 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:37:27 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-10 23:37:28 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-10 23:37:29 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:462ac0b6-c2a4-40f8-b5e4-ae8e6b00cf17 user=SA
+2026-03-10 23:37:29 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-10 23:37:29 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:462ac0b6-c2a4-40f8-b5e4-ae8e6b00cf17'
+2026-03-10 23:37:29 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-10 23:37:29 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-10 23:37:29 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-10 23:37:29 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 6.91 seconds (process running for 8.094)
+2026-03-10 23:37:29 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 6.91 seconds (process running for 8.094)
+2026-03-10 23:37:35 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-10 23:37:35 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-10 23:37:35 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-03-10 23:37:35 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:37:35 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:37:35 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:37:35 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:37:37 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:37:37 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:37:38 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:37:38 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:37:45 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:37:45 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-10 23:37:45 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:37:45 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-10 23:39:21 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-10 23:39:21 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-10 23:39:21 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-10 23:39:21 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-10 23:39:21 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-10 23:39:21 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:39:21 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:39:21 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-10 23:39:21 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 11:48:39 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-11 11:48:39 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 9460 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 11:48:39 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 9460 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 11:48:39 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 11:48:39 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 11:48:39 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 11:48:39 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 11:48:39 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-11 11:48:39 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-11 11:48:42 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-11 11:48:43 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-11 11:48:43 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-11 11:48:43 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-11 11:48:43 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-11 11:48:43 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-11 11:48:43 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3757 ms
+2026-03-11 11:48:43 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 11:48:43 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 11:48:43 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 11:48:43 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 11:48:44 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-11 11:48:45 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:edf08609-6775-40c9-8d66-d3eb4502d2b2 user=SA
+2026-03-11 11:48:45 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-11 11:48:45 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:edf08609-6775-40c9-8d66-d3eb4502d2b2'
+2026-03-11 11:48:45 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-11 11:48:45 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-11 11:48:45 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-11 11:48:45 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 7.567 seconds (process running for 10.451)
+2026-03-11 11:48:45 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 7.567 seconds (process running for 10.451)
+2026-03-11 13:11:55 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-11 13:11:55 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-11 13:11:55 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-03-11 13:11:55 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:11:55 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:11:55 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:11:55 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:11:56 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:11:56 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:11:56 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:11:56 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:12:02 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:12:02 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:12:02 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:12:02 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:12:04 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:12:04 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:12:04 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:12:04 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:12:06 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:12:06 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:12:06 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:12:06 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:12:09 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:12:09 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:12:09 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:12:09 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:12:10 DEBUG [http-nio-8080-exec-7] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:12:10 DEBUG [http-nio-8080-exec-7] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:12:10 DEBUG [http-nio-8080-exec-7] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:12:10 DEBUG [http-nio-8080-exec-7] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:10 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-11 13:13:10 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-11 13:13:10 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-11 13:13:10 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-11 13:13:10 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-11 13:13:10 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:13:10 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:13:10 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:13:10 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:13:22 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-11 13:13:22 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 6936 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 13:13:22 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 6936 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 13:13:22 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 13:13:22 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 13:13:22 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 13:13:22 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 13:13:22 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-11 13:13:22 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-11 13:13:26 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-11 13:13:27 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-11 13:13:27 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-11 13:13:27 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-11 13:13:27 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-11 13:13:27 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-11 13:13:27 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4990 ms
+2026-03-11 13:13:28 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:13:28 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:13:28 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:13:28 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:13:30 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-11 13:13:31 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:5fb7cbe8-04df-4239-b386-d3d87cc6c7cc user=SA
+2026-03-11 13:13:31 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-11 13:13:31 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:5fb7cbe8-04df-4239-b386-d3d87cc6c7cc'
+2026-03-11 13:13:31 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-11 13:13:31 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-11 13:13:31 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-11 13:13:31 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 11.032 seconds (process running for 15.578)
+2026-03-11 13:13:31 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 11.032 seconds (process running for 15.578)
+2026-03-11 13:13:32 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-11 13:13:32 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-11 13:13:32 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-03-11 13:13:32 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:32 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:33 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:33 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:35 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:35 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:35 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:35 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:36 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:36 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:36 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:36 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:37 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:37 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:37 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:37 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:40 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:40 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:40 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:40 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:41 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:41 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:41 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:41 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:42 DEBUG [http-nio-8080-exec-7] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:42 DEBUG [http-nio-8080-exec-7] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:13:42 DEBUG [http-nio-8080-exec-7] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:13:42 DEBUG [http-nio-8080-exec-7] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:23:54 DEBUG [http-nio-8080-exec-10] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:23:54 DEBUG [http-nio-8080-exec-10] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:23:54 DEBUG [http-nio-8080-exec-10] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:23:54 DEBUG [http-nio-8080-exec-10] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:23:56 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:23:56 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:23:56 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:23:56 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:23:59 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:23:59 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:23:59 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:23:59 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:24:04 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:24:04 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:24:04 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:24:04 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:24:07 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:24:07 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:24:07 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:24:07 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:24:08 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:24:08 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:24:08 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:24:08 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:24:08 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:24:08 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:24:08 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:24:08 DEBUG [http-nio-8080-exec-6] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:24:08 DEBUG [http-nio-8080-exec-7] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:24:08 DEBUG [http-nio-8080-exec-7] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:24:08 DEBUG [http-nio-8080-exec-7] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:24:08 DEBUG [http-nio-8080-exec-7] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:25:46 DEBUG [http-nio-8080-exec-9] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:25:46 DEBUG [http-nio-8080-exec-9] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:25:46 DEBUG [http-nio-8080-exec-9] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:25:46 DEBUG [http-nio-8080-exec-9] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:26:53 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:26:53 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:26:53 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:26:53 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:27:04 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-11 13:27:04 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-11 13:27:04 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-11 13:27:04 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-11 13:27:04 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-11 13:27:04 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:27:04 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:27:04 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:27:04 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:27:16 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-11 13:27:16 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 3824 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 13:27:16 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 3824 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 13:27:16 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 13:27:16 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 13:27:16 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 13:27:16 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 13:27:16 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-11 13:27:16 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-11 13:27:18 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-11 13:27:20 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-11 13:27:20 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-11 13:27:20 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-11 13:27:20 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-11 13:27:20 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-11 13:27:20 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3727 ms
+2026-03-11 13:27:20 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:27:20 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:27:20 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:27:20 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:27:21 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-11 13:27:21 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:dcf9ea0c-e3f4-483d-a536-8a4290d9f285 user=SA
+2026-03-11 13:27:21 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-11 13:27:21 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dcf9ea0c-e3f4-483d-a536-8a4290d9f285'
+2026-03-11 13:27:22 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-11 13:27:22 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-11 13:27:22 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-11 13:27:22 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 7.479 seconds (process running for 9.488)
+2026-03-11 13:27:22 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 7.479 seconds (process running for 9.488)
+2026-03-11 13:29:00 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-11 13:29:00 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-11 13:29:00 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-03-11 13:29:00 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:29:00 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:29:01 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:29:01 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:29:02 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:29:02 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:29:03 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:29:03 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:29:05 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:29:05 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:29:05 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:29:05 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:29:06 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:29:06 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:29:06 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:29:06 DEBUG [http-nio-8080-exec-4] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:29:08 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:29:08 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:29:08 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:29:08 DEBUG [http-nio-8080-exec-5] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:30:21 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-11 13:30:21 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-11 13:30:21 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-11 13:30:21 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-11 13:30:21 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-11 13:30:21 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:30:21 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:30:21 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:30:21 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:30:33 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-11 13:30:33 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 24188 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 13:30:33 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 24188 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 13:30:33 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 13:30:33 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 13:30:33 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 13:30:33 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 13:30:33 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-11 13:30:33 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-11 13:30:36 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-11 13:30:37 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-11 13:30:37 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-11 13:30:37 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-11 13:30:37 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-11 13:30:37 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-11 13:30:37 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3850 ms
+2026-03-11 13:30:37 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:30:37 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:30:37 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:30:37 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:30:38 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-11 13:30:39 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:76824d53-4f56-440d-aa13-0007621a4d0b user=SA
+2026-03-11 13:30:39 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-11 13:30:39 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:76824d53-4f56-440d-aa13-0007621a4d0b'
+2026-03-11 13:30:39 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-11 13:30:39 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-11 13:30:39 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-11 13:30:39 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 7.367 seconds (process running for 9.371)
+2026-03-11 13:30:39 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 7.367 seconds (process running for 9.371)
+2026-03-11 13:50:21 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-11 13:50:21 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-11 13:50:21 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-11 13:50:21 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-11 13:50:21 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-11 13:50:21 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:50:21 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:50:21 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:50:21 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 13:50:32 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-11 13:50:32 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 19940 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 13:50:32 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 19940 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 13:50:32 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 13:50:32 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 13:50:32 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 13:50:32 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 13:50:32 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-11 13:50:32 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-11 13:50:35 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-11 13:50:36 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-11 13:50:36 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-11 13:50:36 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-11 13:50:36 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-11 13:50:36 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-11 13:50:36 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3822 ms
+2026-03-11 13:50:36 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:50:36 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:50:36 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:50:36 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 13:50:37 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-11 13:50:38 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:8b42d379-e9e9-40cb-8629-5633dbbbb158 user=SA
+2026-03-11 13:50:38 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-11 13:50:38 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:8b42d379-e9e9-40cb-8629-5633dbbbb158'
+2026-03-11 13:50:38 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-11 13:50:38 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-11 13:50:38 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-11 13:50:38 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 7.705 seconds (process running for 11.346)
+2026-03-11 13:50:38 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 7.705 seconds (process running for 11.346)
+2026-03-11 13:54:36 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-11 13:54:36 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-11 13:54:36 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-03-11 13:54:36 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:54:36 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 13:54:37 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 13:54:37 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 16:03:53 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-11 16:03:53 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-11 16:03:53 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-11 16:03:53 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-11 16:03:53 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-11 16:03:53 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 16:03:53 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 16:03:53 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 16:03:53 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 16:14:56 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-11 16:14:56 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 10744 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 16:14:56 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 10744 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 16:14:56 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 16:14:56 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 16:14:56 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 16:14:56 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 16:14:56 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-11 16:14:56 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-11 16:14:59 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-11 16:15:00 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-11 16:15:00 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-11 16:15:00 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-11 16:15:00 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-11 16:15:00 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-11 16:15:00 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4601 ms
+2026-03-11 16:15:01 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 16:15:01 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 16:15:01 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 16:15:01 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 16:15:02 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-11 16:15:03 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:19bf722d-b65c-44bf-bd3a-dcb67893d42d user=SA
+2026-03-11 16:15:03 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-11 16:15:03 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:19bf722d-b65c-44bf-bd3a-dcb67893d42d'
+2026-03-11 16:15:03 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-11 16:15:03 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-11 16:15:03 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-11 16:15:04 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 9.644 seconds (process running for 12.122)
+2026-03-11 16:15:04 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 9.644 seconds (process running for 12.122)
+2026-03-11 16:15:08 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-11 16:15:08 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-11 16:15:08 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-03-11 16:15:08 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 16:15:08 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 16:15:09 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 16:15:09 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 16:15:11 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 16:15:11 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 16:15:11 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 16:15:11 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 16:15:14 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 16:15:14 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 16:15:14 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 16:15:14 DEBUG [http-nio-8080-exec-3] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 16:18:55 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-11 16:18:55 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-11 16:18:55 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-11 16:18:55 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-11 16:18:55 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-11 16:18:55 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 16:18:55 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 16:18:55 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 16:18:55 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 17:08:04 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-11 17:08:04 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 1936 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 17:08:04 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 1936 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-11 17:08:04 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 17:08:04 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-11 17:08:04 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 17:08:04 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-11 17:08:04 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-11 17:08:04 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-11 17:08:07 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-11 17:08:08 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-11 17:08:08 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-11 17:08:08 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-11 17:08:08 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-11 17:08:08 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-11 17:08:08 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4196 ms
+2026-03-11 17:08:09 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 17:08:09 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 17:08:09 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 17:08:09 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-11 17:08:10 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-11 17:08:10 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:f4bd706f-5b7c-46e3-aef6-000f95d4c030 user=SA
+2026-03-11 17:08:10 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-11 17:08:10 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:f4bd706f-5b7c-46e3-aef6-000f95d4c030'
+2026-03-11 17:08:11 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-11 17:08:11 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-11 17:08:11 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-11 17:08:11 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 8.755 seconds (process running for 11.388)
+2026-03-11 17:08:11 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 8.755 seconds (process running for 11.388)
+2026-03-11 17:08:15 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-11 17:08:15 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-03-11 17:08:15 INFO  [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-03-11 17:08:15 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 17:08:15 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 17:08:15 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 17:08:15 DEBUG [http-nio-8080-exec-1] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 17:08:21 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 17:08:21 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 시작
+2026-03-11 17:08:21 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 17:08:21 DEBUG [http-nio-8080-exec-2] d.binz.reference.filter.CustomFilter - [CustomFilter] 요청 필터링 완료
+2026-03-11 17:10:39 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-11 17:10:39 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-11 17:10:39 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-11 17:10:39 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-11 17:10:39 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-11 17:10:39 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 17:10:39 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 17:10:39 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-11 17:10:39 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-12 10:34:21 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-12 10:34:22 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 10720 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-12 10:34:22 INFO  [restartedMain] d.b.reference.ReferenceApplication - Starting ReferenceApplication using Java 21.0.10 with PID 10720 (C:\DEV_SRC\eclipse\Reference\target\classes started by sonzw in C:\DEV_SRC\eclipse\Reference)
+2026-03-12 10:34:22 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-12 10:34:22 DEBUG [restartedMain] d.b.reference.ReferenceApplication - Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-12 10:34:22 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 10:34:22 INFO  [restartedMain] d.b.reference.ReferenceApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-12 10:34:22 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-12 10:34:22 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-12 10:34:26 WARN  [restartedMain] o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[dev.binz.reference]' package. Please check your configuration.
+2026-03-12 10:34:28 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-12 10:34:28 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-12 10:34:28 INFO  [restartedMain] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-12 10:34:28 INFO  [restartedMain] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-12 10:34:28 INFO  [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-12 10:34:28 INFO  [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6259 ms
+2026-03-12 10:34:28 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-12 10:34:28 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-12 10:34:28 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-12 10:34:28 DEBUG [restartedMain] d.binz.reference.filter.CustomFilter - CustomFilter 초기화됨
+2026-03-12 10:34:29 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-12 10:34:30 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e6f28712-3d82-44a8-8a1b-5d546c84abdc user=SA
+2026-03-12 10:34:30 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-12 10:34:30 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:e6f28712-3d82-44a8-8a1b-5d546c84abdc'
+2026-03-12 10:34:30 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-03-12 10:34:30 INFO  [restartedMain] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-12 10:34:30 INFO  [restartedMain] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-12 10:34:30 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 11.777 seconds (process running for 17.239)
+2026-03-12 10:34:30 INFO  [restartedMain] d.b.reference.ReferenceApplication - Started ReferenceApplication in 11.777 seconds (process running for 17.239)
+2026-03-12 15:22:24 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-12 15:22:24 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-12 15:22:24 WARN  [SpringApplicationShutdownHook] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-03-12 15:22:24 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-12 15:22:24 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-12 15:22:24 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-12 15:22:24 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-12 15:22:24 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨
+2026-03-12 15:22:24 DEBUG [SpringApplicationShutdownHook] d.binz.reference.filter.CustomFilter - CustomFilter 종료됨

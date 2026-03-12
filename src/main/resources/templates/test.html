@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test Page</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- 1. common.html의 loading fragment 포함 -->
+    <div th:replace="~{common :: loading}"></div>
+
+    <div class="container mt-5">
+        <h1>Hello, Thymeleaf!</h1>
+        <p>This is a test page with a Bootstrap table.</p>
+
+        <h2 class="mt-4">User List</h2>
+        <table class="table table-striped table-bordered" id="userTable">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">Class</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="user : ${users}" th:if="${user.age <= 30}">
+                    <td th:text="${user.name}"></td>
+                    <td th:text="${user.age}"></td>
+                    <td th:text="${user.id}"></td>
+                    <td th:text="${user.className}"></td>
+                    <td>
+                        <button class="btn btn-info btn-sm view-details-btn" th:data-user-id="${user.id}">상세보기(팝업)</button>
+                        <button class="btn btn-success btn-sm view-details-modal-btn" th:data-user-id="${user.id}">상세보기(모달)</button>
+                        <!-- 3. 상세보기(함수) 버튼 추가 -->
+                        <button class="btn btn-warning btn-sm view-details-func-btn" th:data-user-id="${user.id}">상세보기(함수)</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- 버튼 영역 -->
+        <div class="mt-3">
+            <button id="loadMoreBtn" class="btn btn-primary me-2">더 많은 사용자 불러오기</button>
+            <button id="testLoadingBtn" class="btn btn-secondary">10초 로딩 테스트</button>
+        </div>
+    </div>
+
+    <!-- Bootstrap Modal(다이얼로그) 구조 -->
+    <div class="modal fade" id="userDetailsModal" tabindex="-1" aria-labelledby="userDetailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="userDetailsModalLabel">사용자 상세 정보</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="userDetailsModalBody">
+                    <!-- AJAX로 받은 데이터가 여기에 채워집니다. -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- AJAX 및 로딩, 모달 스크립트 -->
+    <script>
+        // 전역 모달 인스턴스
+        const userDetailsModal = new bootstrap.Modal(document.getElementById('userDetailsModal'));
+
+        // 4. showDetail async 함수 정의
+        const pageApp = {
+            showDetail: async function(id) {
+                try {
+                    console.log(`Fetching details for user ID: ${id}`);
+                    const response = await fetch(`/page/userDetails/${id}`);
+
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+
+                    const userDetails = await response.json();
+
+                    if (userDetails) {
+                        const modalBody = document.getElementById('userDetailsModalBody');
+                        modalBody.innerHTML = `
+                            <p><strong>이름:</strong> ${userDetails.name}</p>
+                            <p><strong>나이:</strong> ${userDetails.age}</p>
+                            <p><strong>ID:</strong> ${userDetails.id}</p>
+                            <p><strong>클래스:</strong> ${userDetails.className}</p>
+                            <p class="text-muted small mt-3">* 함수(async/await)를 통해 로드됨</p>
+                        `;
+                        userDetailsModal.show();
+                    } else {
+                        alert('사용자 정보를 찾을 수 없습니다.');
+                    }
+                } catch (error) {
+                    console.error('Error in showDetail:', error);
+                    alert('상세 정보를 불러오는 중 오류가 발생했습니다.');
+                }
+            }
+        };
+
+        // "더 많은 사용자 불러오기" 버튼 클릭 이벤트
+        document.getElementById('loadMoreBtn').addEventListener('click', function() {
+            fetch('/page/addMoreUsers')
+                .then(response => response.json())
+                .then(data => {
+                    const tableBody = document.querySelector('#userTable tbody');
+                    data.forEach(user => {
+                        if (user.age <= 30) {
+                            // 중복 체크
+                            const existingBtn = tableBody.querySelector(`button[data-user-id="${user.id}"]`);
+                            if (!existingBtn) {
+                                const row = tableBody.insertRow();
+                                row.innerHTML = `
+                                    <td>${user.name}</td>
+                                    <td>${user.age}</td>
+                                    <td>${user.id}</td>
+                                    <td>${user.className}</td>
+                                    <td>
+                                        <button class="btn btn-info btn-sm view-details-btn" data-user-id="${user.id}">상세보기(팝업)</button>
+                                        <button class="btn btn-success btn-sm view-details-modal-btn" data-user-id="${user.id}">상세보기(모달)</button>
+                                        <button class="btn btn-warning btn-sm view-details-func-btn" data-user-id="${user.id}">상세보기(함수)</button>
+                                    </td>
+                                `;
+                            }
+                        }
+                    });
+                })
+                .catch(error => console.error('Error loading more users:', error));
+        });
+
+        // 테이블 내 버튼 클릭 이벤트 위임
+        document.querySelector('#userTable tbody').addEventListener('click', function(event) {
+            const target = event.target;
+            const userId = target.dataset.userId;
+
+            if (!userId) return;
+
+            // 1. 상세보기(팝업)
+            if (target.classList.contains('view-details-btn')) {
+                fetch(`/page/userDetails/${userId}`)
+                    .then(response => response.json())
+                    .then(userDetails => {
+                        alert(`이름: ${userDetails.name}\n나이: ${userDetails.age}`);
+                    });
+            }
+
+            // 2. 상세보기(모달) - 기존 방식
+            if (target.classList.contains('view-details-modal-btn')) {
+                fetch(`/page/userDetails/${userId}`)
+                    .then(response => response.json())
+                    .then(userDetails => {
+                        const modalBody = document.getElementById('userDetailsModalBody');
+                        modalBody.innerHTML = `
+                            <p><strong>이름:</strong> ${userDetails.name}</p>
+                            <p><strong>나이:</strong> ${userDetails.age}</p>
+                            <p><strong>ID:</strong> ${userDetails.id}</p>
+                            <p><strong>클래스:</strong> ${userDetails.className}</p>
+                        `;
+                        userDetailsModal.show();
+                    });
+            }
+
+            // 3. 상세보기(함수) - pageApp.showDetail 호출
+            if (target.classList.contains('view-details-func-btn')) {
+                pageApp.showDetail(userId);
+            }
+        });
+
+        // "10초 로딩 테스트" 버튼
+        document.getElementById('testLoadingBtn').addEventListener('click', function() {
+            const loadingElement = document.getElementById('loading');
+            if (loadingElement) {
+                loadingElement.style.display = 'block';
+                setTimeout(() => { loadingElement.style.display = 'none'; }, 10000);
+            } else {
+                alert('로딩 요소를 찾을 수 없습니다.');
+            }
+        });
+    </script>
+</body>
+</html>

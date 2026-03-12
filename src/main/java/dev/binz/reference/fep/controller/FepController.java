@@ -30,7 +30,6 @@ public class FepController {
     @PostMapping(path = "/fep")
     public Object incomming(@RequestBody AbstractFepStruct<?> requestBody) throws JsonProcessingException {
         System.out.println("FepController.incomming");
-
         // 🚀 DTO 출력 로직 (AOP로 분리되어야 하는 횡단 관심사)
         // 이전 단계에서 논의된 바와 같이, 이 로직은 로깅/디버깅 목적으로 Controller 외부에 AOP로 분리하는 것이 이상적입니다.
         ObjectMapper mapper = new ObjectMapper();
