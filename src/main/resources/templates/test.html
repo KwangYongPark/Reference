@@ -119,24 +119,31 @@
                             // 중복 체크
                             const existingBtn = tableBody.querySelector(`button[data-user-id="${user.id}"]`);
                             if (!existingBtn) {
-                                const row = tableBody.insertRow();
-                                row.innerHTML = `
-                                    <td>${user.name}</td>
-                                    <td>${user.age}</td>
-                                    <td>${user.id}</td>
-                                    <td>${user.className}</td>
-                                    <td>
-                                        <button class="btn btn-info btn-sm view-details-btn" data-user-id="${user.id}">상세보기(팝업)</button>
-                                        <button class="btn btn-success btn-sm view-details-modal-btn" data-user-id="${user.id}">상세보기(모달)</button>
-                                        <button class="btn btn-warning btn-sm view-details-func-btn" data-user-id="${user.id}">상세보기(함수)</button>
-                                    </td>
-                                `;
+                                const row = createTableRow(user);
+                                tableBody.appendChild(row);
                             }
                         }
                     });
                 })
                 .catch(error => console.error('Error loading more users:', error));
         });
+
+        // 테이블 행 생성 헬퍼 함수
+        function createTableRow(user) {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td>${user.name}</td>
+                <td>${user.age}</td>
+                <td>${user.id}</td>
+                <td>${user.className}</td>
+                <td>
+                    <button class="btn btn-info btn-sm view-details-btn" data-user-id="${user.id}">상세보기(팝업)</button>
+                    <button class="btn btn-success btn-sm view-details-modal-btn" data-user-id="${user.id}">상세보기(모달)</button>
+                    <button class="btn btn-warning btn-sm view-details-func-btn" data-user-id="${user.id}">상세보기(함수)</button>
+                </td>
+            `;
+            return tr;
+        }
 
         // 테이블 내 버튼 클릭 이벤트 위임
         document.querySelector('#userTable tbody').addEventListener('click', function(event) {
@@ -175,7 +182,7 @@
                 pageApp.showDetail(userId);
             }
         });
-
+⁶
         // "10초 로딩 테스트" 버튼
         document.getElementById('testLoadingBtn').addEventListener('click', function() {
             const loadingElement = document.getElementById('loading');
